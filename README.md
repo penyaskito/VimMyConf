@@ -10,6 +10,7 @@ Installation
 ---------
 
 1. Backup of your vim configuration 
+
         mv ~/.vim ~/.vimold
 
 2. Clone repo
