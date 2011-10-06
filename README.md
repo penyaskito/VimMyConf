@@ -1,23 +1,26 @@
 VimMyConf
 =========
 
-Mi configuración de vim, esta gestionada con el plugin pathogen
-[pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
+My vim configuration, based on the config shared by [karlosgliberal](https://github.com/karlosgliberal/VimMyConf)
 
-El compañero [carlop](https://github.com/carlop/) me ha servido de inspiración 
+It's managed with [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
+
 
 Installation
 ---------
 
-1. Clone repo
+1. Backup of your vim configuration 
+        mv ~/.vim ~/.vimold
 
-        git clone git@github.com:karlosgliberal/VimMyConf.git ~/.vim
+2. Clone repo
 
-2. Create symlinks
+        git clone git@github.com:penyaskito/VimMyConf.git ~/.vim
+
+3. Create symlinks
 
         ln -s ~/.vim/vimrc ~/.vimrc
 
-3. Fetch submodules
+4. Fetch submodules
 
         cd ~/.vim
         git submodule init
